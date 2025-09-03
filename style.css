@@ -1,0 +1,253 @@
+/* RESET */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+
+}
+
+body {
+
+  background: #f9f9f9;
+
+  color: #333;
+
+  line-height: 1.6;
+
+}
+
+header {
+
+  background: #2c3e50;
+
+  color: white;
+
+  padding: 20px 0;
+
+  text-align: center;
+
+}
+
+nav {
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 20px;
+
+  margin-top: 10px;
+
+}
+
+nav a {
+
+  color: white;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+
+}
+
+nav a:hover {
+
+  color: #f39c12;
+
+}
+
+section {
+
+  padding: 60px 20px;
+
+  max-width: 1000px;
+
+  margin: auto;
+
+}
+
+h1, h2 {
+
+  text-align: center;
+
+  margin-bottom: 20px;
+
+}
+
+.about, .skills, .projects, .contact {
+
+  background: white;
+
+  padding: 30px;
+
+  margin-top: 20px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+}
+
+/* About Section */
+
+.about-container {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 20px;
+
+  text-align: left;
+
+}
+
+.profile-photo {
+
+  width: 150px;
+
+  height: 150px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+
+  border: 4px solid #3498db;
+
+}
+
+/* Skills */
+
+.skills-list {
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 15px;
+
+}
+
+.skills-list span {
+
+  background: #3498db;
+
+  color: white;
+
+  padding: 10px 20px;
+
+  border-radius: 20px;
+
+  font-size: 14px;
+
+}
+
+/* Projects */
+
+.project-card {
+
+  background: #ecf0f1;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  margin-bottom: 15px;
+
+}
+
+/* Contact */
+
+.contact form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 15px;
+
+}
+
+.contact input, .contact textarea {
+
+  padding: 10px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 8px;
+
+  font-size: 16px;
+
+}
+
+.contact button {
+
+  background: #3498db;
+
+  color: white;
+
+  border: none;
+
+  padding: 12px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+}
+
+.contact button:hover {
+
+  background: #2980b9;
+
+}
+
+#formMessage {
+
+  text-align: center;
+
+  margin-top: 10px;
+
+  color: green;
+
+}
+
+footer {
+
+  text-align: center;
+
+  padding: 20px;
+
+  background: #2c3e50;
+
+  color: white;
+
+  margin-top: 30px;
+
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  .about-container {
+
+    flex-direction: column;
+
+    text-align: center;
+
+  }
+
+}
